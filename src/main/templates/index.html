@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>トラス計算フォーム</title>
+</head>
+<body>
+    <h1>トラス構造の入力フォーム</h1>
+    <form action="/calculate" method="post">
+        <label>支点のタイプ：</label>
+        <select name="supportType">
+            <option value="roller">ローラー支点</option>
+            <option value="pin">ピン支点</option>
+        </select><br><br>
+
+        <label>支点のX座標：</label>
+        <input type="number" name="supportX" required><br><br>
+
+        <label>支点のY座標：</label>
+        <input type="number" name="supportY" required><br><br>
+
+        <label>部材番号：</label>
+        <input type="text" name="memberNumber" required><br><br>
+
+        <label>接点X座標：</label>
+        <input type="number" name="jointX" required><br><br>
+
+        <label>接点Y座標：</label>
+        <input type="number" name="jointY" required><br><br>
+
+        <label>荷重：</label>
+        <input type="number" name="load" required><br><br>
+
+        <button type="submit">計算する</button>
+    </form>
+</body>
+</html>

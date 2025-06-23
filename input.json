@@ -1,0 +1,1 @@
+{"nodes":[{"id":0,"x":0,"y":0,"support":"pin","fx":0,"fy":0},{"id":1,"x":5,"y":0,"support":"rollerx","fx":0,"fy":0}],"members":[{"startNodeId":0,"endNodeId":1}]}
