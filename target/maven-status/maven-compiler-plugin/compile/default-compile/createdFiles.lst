@@ -1,5 +1,6 @@
 com\airi\trussforce\demo\service\TrussForceSolver$Node.class
 com\airi\trussforce\demo\Node.class
+com\airi\trussforce\demo\WebConfig$1.class
 com\airi\trussforce\demo\controller\CalculateController.class
 com\airi\trussforce\demo\service\TrussForceSolver$Member.class
 com\airi\trussforce\demo\dto\MemberDto.class
@@ -7,6 +8,7 @@ com\airi\trussforce\demo\service\TrussForceSolver$Result.class
 com\airi\trussforce\demo\WebConfig.class
 com\airi\trussforce\demo\controller\SolveController.class
 com\airi\trussforce\demo\dto\SolveRequestDto.class
+com\airi\trussforce\demo\config\SimpleCorsFilter.class
 com\airi\trussforce\demo\dto\TrussResult.class
 com\airi\trussforce\demo\converter\NodeConverter.class
 com\airi\trussforce\demo\dto\SupportDto.class
