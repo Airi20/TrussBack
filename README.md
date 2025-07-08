@@ -30,3 +30,7 @@ Renderの無料プラン特有のスリープ問題が起きます。
 - Docker  
 - Render.com
 
+
+© <span style="color:gray;">@Airi</span>  
+This code is for personal and educational use only.  
+Commercial use is strictly prohibited.
